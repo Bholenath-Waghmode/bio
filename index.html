@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bholenath Waghmode | SME @ KPIT & PhD Scholar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+    <style>
+        @import url('https://fonts.googleapis.com');
+        body { font-family: 'Outfit', sans-serif; background: #020617; color: #94a3b8; scroll-behavior: smooth; }
+        .hero-bg { background: radial-gradient(circle at 50% 50%, #1e293b 0%, #020617 100%); }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .text-gradient { background: linear-gradient(to right, #60a5fa, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 p-6 flex justify-center">
+        <div class="glass px-8 py-3 rounded-full flex gap-6 text-sm font-semibold text-white shadow-2xl">
+            <a href="#about" class="hover:text-blue-400 transition">Bio</a>
+            <a href="#expertise" class="hover:text-blue-400 transition">Expertise</a>
+            <a href="#publications" class="hover:text-blue-400 transition">Papers</a>
+            <a href="https://in.linkedin.com" target="_blank" class="text-blue-400">Connect</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex flex-col justify-center items-center text-center px-6 hero-bg">
+        <div class="relative mb-8">
+            <div class="absolute inset-0 bg-blue-600 blur-3xl opacity-20 rounded-full"></div>
+            <img src="https://media.licdn.com" 
+                 alt="Bholenath Waghmode" 
+                 class="relative w-48 h-48 rounded-full border-4 border-blue-500/30 p-1 shadow-2xl object-cover">
+        </div>
+        <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4 tracking-tight">Bholenath <span class="text-gradient">Waghmode</span></h1>
+        <p class="text-xl md:text-2xl text-slate-400 max-w-3xl font-light italic">"Shaping the future of Automotive Systems through Adaptive Software."</p>
+        
+        <div class="flex gap-8 mt-10 text-3xl">
+            <a href="https://in.linkedin.com" target="_blank" class="hover:text-blue-500 transition-all"><i class="fab fa-linkedin"></i></a>
+            <a href="https://medium.com" target="_blank" class="hover:text-white transition-all"><i class="fab fa-medium"></i></a>
+            <a href="https://www.researchgate.net" target="_blank" class="hover:text-blue-400 transition-all"><i class="fas fa-flask"></i></a>
+        </div>
+    </header>
+
+    <!-- Bio Section -->
+    <section id="about" class="max-w-5xl mx-auto py-24 px-8 grid md:grid-cols-3 gap-12">
+        <div class="md:col-span-2">
+            <h2 class="text-3xl font-bold text-white mb-6">Professional Biography</h2>
+            <p class="text-lg leading-relaxed mb-6">
+                Bholenath Waghmode is a Subject Matter Expert in **Automotive Software** at [KPIT Technologies](https://in.linkedin.com). 
+                With over two decades of experience in firmware development, he is currently a **PhD Research Scholar** at 
+                <a href="https://www.iitism.ac.in" class="text-blue-400 underline">IIT (ISM) Dhanbad</a>, specializing in 
+                adaptive microcontroller software for **Software-Defined Vehicles (SDV)**.
+            </p>
+            <div class="grid grid-cols-2 gap-6 text-sm">
+                <div class="glass p-4 rounded-xl">
+                    <span class="block text-blue-400 font-bold mb-1 uppercase">Education</span>
+                    M.Tech, B.E., D.E.
+                </div>
+                <div class="glass p-4 rounded-xl">
+                    <span class="block text-blue-400 font-bold mb-1 uppercase">Certifications</span>
+                    IIRS-ISRO (Python Geoprocessing)
+                </div>
+            </div>
+        </div>
+        <div class="glass p-8 rounded-3xl border-blue-500/20">
+            <h3 class="text-xl font-bold text-white mb-4">Core Research</h3>
+            <ul class="space-y-4 text-sm leading-relaxed">
+                <li class="flex items-start gap-2">🚀 <span>Adaptive Microcontroller Software</span></li>
+                <li class="flex items-start gap-2">🚗 <span>Dynamic ECU Configuration</span></li>
+                <li class="flex items-start gap-2">🔋 <span>EV Powertrain Software</span></li>
+                <li class="flex items-start gap-2">🛡️ <span>AUTOSAR & ISO 26262</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Expertise Grid -->
+    <section id="expertise" class="bg-slate-900/30 py-24 px-8">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-12 text-center">Technical Stack</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="glass p-4 rounded-xl text-center font-semibold text-white">Embedded C/C++</div>
+                <div class="glass p-4 rounded-xl text-center font-semibold text-white">RTOS & Firmware</div>
+                <div class="glass p-4 rounded-xl text-center font-semibold text-white">CAN / LIN / CANoe</div>
+                <div class="glass p-4 rounded-xl text-center font-semibold text-white">Linux LDD</div>
+                <div class="glass p-4 rounded-xl text-center font-semibold text-white">U-Boot & Kernel</div>
+                <div class="glass p-4 rounded-xl text-center font-semibold text-white">Python Automation</div>
+                <div class="glass p-4 rounded-xl text-center font-semibold text-white">Device Drivers</div>
+                <div class="glass p-4 rounded-xl text-center font-semibold text-white">Micro-Controllers</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="max-w-5xl mx-auto py-24 px-8">
+        <h2 class="text-3xl font-bold text-white mb-10 border-l-4 border-blue-600 pl-4">Publications & Thought Leadership</h2>
+        <div class="grid gap-6">
+            <a href="https://www.researchgate.net" target="_blank" class="glass p-6 rounded-2xl hover:border-blue-500 transition group">
+                <span class="text-blue-500 text-xs font-bold uppercase mb-2 block">Research Paper • 2025</span>
+                <h4 class="text-xl font-bold text-white group-hover:text-blue-400">Adaptive Microcontroller Software: Shaping the Future of Automotive Systems</h4>
+                <p class="text-sm mt-2">Available on [ResearchGate](https://www.researchgate.net)</p>
+            </a>
+            <a href="https://www.academia.edu" target="_blank" class="glass p-6 rounded-2xl hover:border-blue-500 transition group">
+                <span class="text-blue-500 text-xs font-bold uppercase mb-2 block">Technical Handbook</span>
+                <h4 class="text-xl font-bold text-white group-hover:text-blue-400">Handbook on Microcontroller Software for Dynamic Configuration of Automotive ECUs</h4>
+                <p class="text-sm mt-2">Comprehensive guide for automotive developers and researchers.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-20 text-center border-t border-white/5">
+        <p class="text-xs tracking-[0.4em] uppercase text-slate-500">© 2026 Bholenath Waghmode | Automotive Innovation Portfolio</p>
+    </footer>
+
+</body>
+</html>
